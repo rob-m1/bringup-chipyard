@@ -31,3 +31,6 @@ project/project/
 .vscode/
 tests/build/
 conda-reqs/chipyard-base.yaml.bak
+Miniforge3-Linux-x86_64.sh
+toolchains/riscv-tools/
+tests/modem_dsp_digcore
