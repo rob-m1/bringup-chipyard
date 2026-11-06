@@ -34,3 +34,31 @@ conda-reqs/chipyard-base.yaml.bak
 Miniforge3-Linux-x86_64.sh
 toolchains/riscv-tools/
 tests/modem_dsp_digcore
+# C/C++ Build Artifacts & Objects
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.riscv
+tests/build/
+
+# VCS / Verilator Simulation Files
+csrc/
+simv*
+ucli.key
+vc_hdrs.h
+DEDA.vpd
+*.vpd
+*.fsdb
+*.tar.gz
+
+# Chipyard Generated Source Directories
+generators/*/src/main/resources/
+generated-src/
+
+# Temporary / OS files
+*~
+*.swp
+*.swo
+.DS_Store
